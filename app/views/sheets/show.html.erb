@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @sheet.title %>
+</p>
+
+<p>
+  <strong>Consinee:</strong>
+  <%= @sheet.consinee %>
+</p>
+
+<p>
+  <strong>Issuedate:</strong>
+  <%= @sheet.issuedate %>
+</p>
+
+<p>
+  <strong>Enddate:</strong>
+  <%= @sheet.enddate %>
+</p>
+
+<%= link_to 'Edit', edit_sheet_path(@sheet) %> |
+<%= link_to 'Back', sheets_path %>
